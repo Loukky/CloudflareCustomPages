@@ -663,7 +663,7 @@
         let area  = data.split("colo=")[1].split("\n")[0];
         
         endTime = new Date().getTime();
-        $('#ftinfo').prepend(`当前 CDN 节点: <code>${areas[area]}</code>`);
+        $('#ftinfo').prepend(`当前 CDN 节点: ${areas[area]}`);
     }
 });    
     </script>
